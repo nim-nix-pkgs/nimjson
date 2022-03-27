@@ -11,6 +11,7 @@
   inputs.src-nimjson-v1_2_5.ref   = "refs/tags/v1.2.5";
   inputs.src-nimjson-v1_2_5.owner = "jiro4989";
   inputs.src-nimjson-v1_2_5.repo  = "nimjson";
+  inputs.src-nimjson-v1_2_5.dir   = "";
   inputs.src-nimjson-v1_2_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

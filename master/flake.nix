@@ -11,6 +11,7 @@
   inputs.src-nimjson-master.ref   = "refs/heads/master";
   inputs.src-nimjson-master.owner = "jiro4989";
   inputs.src-nimjson-master.repo  = "nimjson";
+  inputs.src-nimjson-master.dir   = "";
   inputs.src-nimjson-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
